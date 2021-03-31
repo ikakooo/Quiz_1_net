@@ -1,0 +1,6 @@
+c:\users\ikakooo\documents\visual studio 2015\Projects\Quiz1_irakliChkhitunidze\Quiz1_irakliChkhitunidze\bin\Debug\Quiz1_irakliChkhitunidze.exe.config
+c:\users\ikakooo\documents\visual studio 2015\Projects\Quiz1_irakliChkhitunidze\Quiz1_irakliChkhitunidze\bin\Debug\Quiz1_irakliChkhitunidze.exe
+c:\users\ikakooo\documents\visual studio 2015\Projects\Quiz1_irakliChkhitunidze\Quiz1_irakliChkhitunidze\bin\Debug\Quiz1_irakliChkhitunidze.pdb
+c:\users\ikakooo\documents\visual studio 2015\Projects\Quiz1_irakliChkhitunidze\Quiz1_irakliChkhitunidze\obj\Debug\Quiz1_irakliChkhitunidze.csprojResolveAssemblyReference.cache
+c:\users\ikakooo\documents\visual studio 2015\Projects\Quiz1_irakliChkhitunidze\Quiz1_irakliChkhitunidze\obj\Debug\Quiz1_irakliChkhitunidze.exe
+c:\users\ikakooo\documents\visual studio 2015\Projects\Quiz1_irakliChkhitunidze\Quiz1_irakliChkhitunidze\obj\Debug\Quiz1_irakliChkhitunidze.pdb
