@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Quiz1_irakliChkhitunidze
@@ -61,30 +62,26 @@ namespace Quiz1_irakliChkhitunidze
 
 
 
-          Boolean a =  OrderInformation("Z2 A1");
-
+          Boolean a =  OrderInformation("A9");
+            Console.WriteLine(a);
+            Console.ReadKey();
         }
         // Task 2
         static Boolean OrderInformation(String text)
         {
             string filteredText = text.Replace(" ", "");
-            int iterations = filteredText.Length;
-
-            while (iterations>0)
+            for (int i = 0; i < filteredText.Length; i+=2)
             {
-                if (filteredText[iterations-1] < 'A' & filteredText[iterations - 1] > 'E' & filteredText[iterations - 1] < '1' & filteredText[iterations - 1] > '9')
+                string s = ""+filteredText[i] + filteredText[i+1];
+                if (!Regex.Match(s, "([A-E]+[1-9])").Success)
                 {
-                    return true;
+                    return false;
                 }
 
-
-
-                iterations--;
             }
-            
+                
 
-
-            return false;
+            return true;
         }
     }
 }
